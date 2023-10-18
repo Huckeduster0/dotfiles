@@ -144,6 +144,18 @@ source "$OSH"/oh-my-bash.sh
 ######################################################################
 
 # importing all scripts / settings / aliases in ~/.bash.d/
-if [ -d ~/.bash.d/ ]; then 
-	. ~/.bash.d/*
-fi
+# if [ -d ~/.bash.d/ ]; then 
+# 	. ~/.bash.d/*
+# fi
+
+if [ -f ~/.bash.d/aliases ]; then 
+	. ~/.bash.d/aliases
+fi 
+
+if [ -f ~/.bash.d/neofetch ]; then 
+	. ~/.bash.d/neofetch
+fi 
+
+if [ -f ~/.bash.d/scripts ]; then 
+	. ~/.bash.d/scripts
+fi 
