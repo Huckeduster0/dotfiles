@@ -1,3 +1,9 @@
 [submodule ".oh-my-bash"]
 	path = .oh-my-bash
 	url = https://github.com/ohmybash/oh-my-bash.git
+[submodule ".local/share/fonts/SF-fonts"]
+	path = .local/share/fonts/SF-fonts
+	url = https://github.com/thelioncape/San-Francisco-family.git
+[submodule ".local/share/rofi/themes/rofi-collection"]
+	path = .local/share/rofi/themes/rofi-collection
+	url = https://github.com/Murzchnvok/rofi-collection
