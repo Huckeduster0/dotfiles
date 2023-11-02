@@ -7,3 +7,6 @@
 [submodule ".local/share/rofi/themes/rofi-collection"]
 	path = .local/share/rofi/themes/rofi-collection
 	url = https://github.com/Murzchnvok/rofi-collection
+[submodule ".vim_runtime"]
+	path = .vim_runtime
+	url = https://github.com/amix/vimrc

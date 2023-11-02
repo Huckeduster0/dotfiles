@@ -1,1 +1,9 @@
+# !/bin/bash
+
 alias ccc="clear && neofetch"
+alias lns="ln -s"
+
+
+# obvious typos
+alias cim="vim"
+alias »="|"
