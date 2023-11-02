@@ -9,7 +9,7 @@ export OSH=$HOME/'.oh-my-bash'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="90210"
+OSH_THEME="90211"
 
 # Uncomment the following line to use case-sensitive completion.
 # OMB_CASE_SENSITIVE="true"
@@ -81,9 +81,13 @@ OMB_USE_SUDO=true
 # Example format: completions=(ssh git bundler gem pip pip3)
 # Add wisely, as too many completions slow down shell startup.
 completions=(
-  git
   composer
   ssh
+  docker
+  docker-compose
+  gh
+  git
+  pip3
 )
 
 # Which aliases would you like to load? (aliases can be found in ~/.oh-my-bash/aliases/*)
