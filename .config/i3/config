@@ -1,6 +1,7 @@
 include $HOME/.config/i3/theme.conf
 include $HOME/.config/i3/plasma.conf
 include $HOME/.config/i3/autostart.conf
+#include $HOME/.config/i3/xfce4.conf
 
 set $mod Mod4
 
@@ -96,9 +97,23 @@ bindsym $mod+Shift+0 move container to workspace 10
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
-# exit i3 (logs you out of your X session)
-# -----> disabled, using plasma logout screen 
-# bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# logout thingy 
+mode "Exit" {
+     bindsym l exec i3-msg exit
+     bindsym r exec systemctl -i reboot
+     bindsym s exec systemctl -i poweroff
+     bindsym e mode "default"; exec pkill -15 nagbar
+     bindsym Escape mode "default"; exec pkill -15 nagbar
+ }
+
+ bindsym $mod+Shift+e mode "Exit"; exec i3-nagbar \
+     -t warning \
+     -m '❕ SESSION EXIT OPTIONS' \
+     -B '❌ [L]ogout'    'i3-msg exit' \
+     -B '🌀️ [R]estart'   'systemctl -i reboot' \
+     -B '⚡️ [S]hutdown'  'systemctl -i poweroff'
+
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
