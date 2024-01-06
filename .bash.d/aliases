@@ -1,9 +1,16 @@
 # !/bin/bash
 
 alias ccc="clear && neofetch"
-alias lns="ln -s"
+alias pip="pipx"
+eval "$(thefuck --alias fuck)"
+#alias lns="ln -s"
 
+
+# replacing ls with eza https://github.com/eza-community/eza
+alias ls="eza --icons"
+alias la="eza --icons -1lha --sort=modified --reverse"
 
 # obvious typos
 alias cim="vim"
 alias »="|"
+alias mc="mv"
