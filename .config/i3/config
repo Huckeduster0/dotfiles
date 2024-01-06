@@ -1,10 +1,8 @@
-<<<<<<< HEAD
 # setting Super Key
 set $mod Mod4
 
 # default font, window titles and stuff
 font pango:SF Mono 11
-=======
 include $HOME/.config/i3/theme.conf
 include $HOME/.config/i3/plasma.conf
 include $HOME/.config/i3/autostart.conf
@@ -13,12 +11,10 @@ include $HOME/.config/i3/autostart.conf
 set $mod Mod4
 
 font pango:SF Mono 10
->>>>>>> refs/remotes/origin/master
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-<<<<<<< HEAD
 #############
 # Launchers #
 #############
@@ -32,7 +28,6 @@ bindsym $mod+r exec rofi -show drun
 ###################################
 # workspace / window modification #
 ###################################
-=======
 # start a terminal
 bindsym $mod+t exec alacritty
 
@@ -65,7 +60,6 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
->>>>>>> refs/remotes/origin/master
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -74,11 +68,8 @@ bindsym $mod+h split h
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-<<<<<<< HEAD
 bindsym $mod+iShift+m fullscreen
-=======
 bindsym $mod+m fullscreen
->>>>>>> refs/remotes/origin/master
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -121,7 +112,6 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
-<<<<<<< HEAD
 
 ###################################################
 # misc ############################################
@@ -136,7 +126,6 @@ bindsym $mod+Shift+r restart
 # resize window
 
 
-=======
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -160,7 +149,6 @@ mode "Exit" {
 
 
 # resize window (you can also use the mouse for that)
->>>>>>> refs/remotes/origin/master
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
 
@@ -186,12 +174,6 @@ mode "resize" {
 
 bindsym $mod+Return mode "resize"
 
-<<<<<<< HEAD
-# bar 
-bar {
-        status_command i3status
-}
-=======
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 #bar {
@@ -211,4 +193,3 @@ bindsym $mod+b exec firefox
 
 # do not follow the mouse
 focus_follows_mouse no
->>>>>>> refs/remotes/origin/master
