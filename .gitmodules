@@ -10,3 +10,6 @@
 [submodule ".vim_runtime"]
 	path = .vim_runtime
 	url = https://github.com/amix/vimrc
+[submodule "i3-kde"]
+	path = i3-kde
+	url = https://github.com/heckelson/i3-and-kde-plasma.git

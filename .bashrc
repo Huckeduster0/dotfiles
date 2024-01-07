@@ -163,3 +163,5 @@ fi
 if [ -f ~/.bash.d/scripts ]; then 
 	. ~/.bash.d/scripts
 fi 
+
+eval "$(thefuck --alias)"
