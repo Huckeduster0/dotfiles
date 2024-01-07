@@ -10,6 +10,12 @@
 [submodule ".vim_runtime"]
 	path = .vim_runtime
 	url = https://github.com/amix/vimrc
+<<<<<<< HEAD
 [submodule "i3-kde"]
 	path = i3-kde
 	url = https://github.com/heckelson/i3-and-kde-plasma.git
+=======
+[submodule "dmenu"]
+	path = dmenu
+	url = git://git.suckless.org/dmenu
+>>>>>>> origin/testing
