@@ -4,6 +4,7 @@ alias ccc="clear && neofetch"
 alias pip="pipx"
 eval "$(thefuck --alias fuck)"
 #alias lns="ln -s"
+alias clock="tty-clock"
 
 
 # replacing ls with eza https://github.com/eza-community/eza

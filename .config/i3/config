@@ -157,6 +157,11 @@ for_window [class=".*"] border pixel 5
 # own keybinds
 bindsym $mod+f exec thunar
 bindsym $mod+b exec firefox
+bindsym $mod+Shift+b exec flatpak run com.brave.Browser
+bindsym $mod+p exec /bin/bash -c "flameshot gui --clipboard"
+
+bindsym $mod+Ctrl+Right move workspace to output right
+bindsym $mod+Ctrl+Left move workspace to output left
 
 # do not follow the mouse
 focus_follows_mouse no
