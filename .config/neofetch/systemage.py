@@ -3,7 +3,7 @@
 from datetime import datetime , timedelta
 
 # enter time of system install as UTC time
-installtime = datetime(2023, 10, 31, 22, 5, 8 )
+installtime = datetime(2023, 6, 20, 22, 37, 51 )
 
 diff = datetime.now() - installtime
 
