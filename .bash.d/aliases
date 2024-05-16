@@ -1,6 +1,7 @@
 # !/bin/bash
 
-alias ccc="clear && neofetch"
+#alias ccc="clear && neofetch"
+alias ccc="clear && fastfetch"
 alias pip="pipx"
 eval "$(thefuck --alias fuck)"
 #alias lns="ln -s"
