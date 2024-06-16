@@ -10,7 +10,8 @@ alias clock="tty-clock"
 
 # replacing ls with eza https://github.com/eza-community/eza
 alias ls="eza --icons"
-alias la="eza --icons -1lha --sort=modified --reverse"
+alias lt="eza --icons -1lha --sort=modified --reverse"
+alias la="eza --icons -1lha"
 
 # obvious typos
 alias cim="vim"
